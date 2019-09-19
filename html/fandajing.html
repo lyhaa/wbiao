@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #wbiao{
+        width: 300px;
+        height: 300px;
+        background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+      <div id="wbiao">
+          <div>
+              <img class="my-foto" src="../images/indeximg/ia_100000166.jpg"
+                  data-large="../images/indeximg/ia_100000166.jpg" title="Фото" width="100%" height="100%">
+          </div>
+      </div>
+      <script src="../lib//fd/js/jquery-1.11.0.min.js"></script>
+      <script src="../lib//fd/js/zoomsl.min.js"></script>
+      <script>
+          jQuery(function () {
+              $(".my-foto").imagezoomsl({
+                  zoomrange: [1, 12],
+                  zoomstart: 4,
+                  innerzoom: true,
+                  magnifierborder: "none"
+              });
+          });
+      </script>
+</body>
+</html>
