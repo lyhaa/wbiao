@@ -1,0 +1,667 @@
+[
+    {
+        "brand": "顶级品牌",
+        "bimg": [
+            {
+                "srcimg": "https://image8.wbiao.co/mall/42511ec184ef4d7ebe4a48e989dcba3e.jpg",
+                "imgtex": "江诗丹顿"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/7222a73d4b54414389825b6596fa53da.jpg",
+                "imgtex": "宝玑"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/c04b2a71cda946a7903ff7eb27eeb508.jpg",
+                "imgtex": "积家"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/1a8d5c9b180f4cf9899e8ca7a60e2700.jpg",
+                "imgtex": "宝珀"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/45190020f73b467f946f85433c0ccdaf.jpg",
+                "imgtex": "爱彼"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/db876085325f4d4a96d77a49cbacdb95.jpg",
+                "imgtex": "伯爵"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/ddbf86e451074f95aa2b8f5f4809e11b.jpg",
+                "imgtex": "百达翡丽"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/76ea7665eafb4fe1804b7f82eb1b4981.jpg",
+                "imgtex": "朗格"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/29d8ffba8d1d43f69367ddedbff76911.jpg",
+                "imgtex": "格拉苏蒂∙原创"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/fd3162839bda456e9d42d60ee91f4a74.jpg",
+                "imgtex": "宇舶"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/7269d518ef7f477eb891a59a84a85339.jpg",
+                "imgtex": "芝柏"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/d7bcdb84b0434b6582dc1c2664fc617e.jpg",
+                "imgtex": "法穆兰"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/0a053d2f6cf542969068b3d582f93a73.jpg",
+                "imgtex": "雅典"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/54a7049f530549f7a493b032dd2a8122.jpg",
+                "imgtex": "豪朗时"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f313175cced9480292354c601b98f42d.jpg",
+                "imgtex": "亨利慕时"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/58e9bfa0dfb0406e983e97052a42a7d5.jpg",
+                "imgtex": "雅克德罗"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f4cbd84f0d0a477d9000e824bc972a84.jpg",
+                "imgtex": "播威"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/2e32fca56eca42e89ef0368c38d442bc.jpg",
+                "imgtex": "罗杰杜彼"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/b0fde1bcb2db4cb7858e17a0352e86a0.jpg",
+                "imgtex": "帕玛强尼"
+            }
+        ],
+        "hot": [
+            "五十噚",
+            "百达翡丽",
+            "复杂功能计时",
+            "陀飞轮",
+            "Master大师",
+            "限量款"
+        ]
+    },
+    {
+        "brand": "奢华品牌",
+        "bimg": [
+            {
+                "srcimg": "https://image8.wbiao.co/mall/9ae6f2087b884d4b8d51fd62bb7967f3.jpg",
+                "imgtex": "劳力士"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f2cc31ae4c91408ca4feacd0106380fc.jpg",
+                "imgtex": "欧米茄"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/ca4a7bc269ea42fb89d4295230c73407.jpg",
+                "imgtex": "万国"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f1aa292df2a3469a8f5f17cc7c3b667b.jpg",
+                "imgtex": "百年灵"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/84823ee563fb43de9353be8b557724fd.jpg",
+                "imgtex": "柏高"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/942b55969fdc454b9c5ed3e69267a2a6.jpg",
+                "imgtex": "拓天马"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/d6ec2758d3cf4d4b8c1d93ab7799473e.jpg",
+                "imgtex": "卡地亚"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/5f826b1470dd43ddb1690e86bd376f45.jpg",
+                "imgtex": "库尔沃"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/7c9b96dad8234e9f96a8aca27b5b0f72.jpg",
+                "imgtex": "沛纳海"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/3a7e56063da24cceafee43f4117e9297.jpg",
+                "imgtex": "真力时"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/ffa3f20be2df47559f02e262bf8280e5.jpg",
+                "imgtex": "卡洛夫"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/a52fbd04d46a46f894f733fd044abea0.jpg",
+                "imgtex": "世纪"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/da35aded9e6942cbb591bd496f1d4093.jpg",
+                "imgtex": "萧邦"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/6a7ba5df9ffb4369b24e77222eaa7b94.jpg",
+                "imgtex": "宝格丽"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/a883361122cb4077acd11f7d9cbfdd3b.jpg",
+                "imgtex": "宝齐莱"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/e700bc9a0a324683914ad114742dfa2f.jpg",
+                "imgtex": "昆仑"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/997425239865491da79cfe74f507f83b.jpg",
+                "imgtex": "瑞宝"
+            }
+        ],
+        "hot": [
+            "蓝气球",
+            "碟飞",
+            "水鬼",
+            "珐琅",
+            "镶钻表",
+            "历史学家系列",
+            "飞行员表"
+        ]
+    },
+    {
+        "brand": "高级品牌",
+        "bimg": [
+            {
+                "srcimg": "https://image8.wbiao.co/mall/5eb7bc79998e455e829ae037f0ecf6cc.jpg",
+                "imgtex": "浪琴"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/af3a306ff02e4fa38ca7b2ac1184441a.jpg",
+                "imgtex": "爱宝时"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/5f7dbc05a84842158a8a254a476234c4.jpg",
+                "imgtex": "帝舵"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f9ff0f70f65b44cda9fa960d38eef2f6.jpg",
+                "imgtex": "豪利时"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/03432d241fde4913b9d8b32a434e1fcc.jpg",
+                "imgtex": "泰格豪雅"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/69094772598b407b9faad5357c6a2259.jpg",
+                "imgtex": "Alpina"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/5f935a191727431ba243e713141eb25d.jpg",
+                "imgtex": "莫勒"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/afe43c2ff4464117913b2e2e140a2471.jpg",
+                "imgtex": "荣汉斯"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/bc17e15327e74c4297b9eb54c6ed64d4.jpg",
+                "imgtex": "艾美达"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/b8259a3fc4e948f090392cbd4295f79e.jpg",
+                "imgtex": "艾美"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/75cee454776a4d229a1d432b5af306c1.jpg",
+                "imgtex": "康斯登"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/3388409c64764f10ae97325f4b756775.jpg",
+                "imgtex": "菲拉格慕"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/013bc3838cbd4a83a5ece086f7742a78.jpg",
+                "imgtex": "东方星"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/e081b570675e4299b1843b78943f4d79.jpg",
+                "imgtex": "诺美纳"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/2266fd1473fe4bacaa8ca69482a60f28.jpg",
+                "imgtex": "爱马仕"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/03337a646c05401cab01a0b56e837a1d.jpg",
+                "imgtex": "GUCCI"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/79b0a5f05e0e4ae487fc8eb5ebc7e678.jpg",
+                "imgtex": "万宝龙"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/54d54b744eb34e24865f3500b51a0c22.png",
+                "imgtex": "罗贝罗班"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/ad752362476e4d76898db047bbf28279.jpg",
+                "imgtex": "名士"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/171cb348c1784f2cb109a5d3a251d58b.jpg",
+                "imgtex": "雷达"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/76d4df9395d54b8f84b17cae3306c62d.jpg",
+                "imgtex": "依百克"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/679579935c49424493e141819810a767.jpg",
+                "imgtex": "柏莱士"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/beceae927785403a8f73068e3cb1e098.jpg",
+                "imgtex": "梵德宝"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/3641cb2f69c64e7c936e7e1378cc9319.jpg",
+                "imgtex": "蕾蒙威"
+            }
+        ],
+        "hot": [
+            "名匠",
+            "星空表",
+            "依百克四驱",
+            "gucci",
+            "古董机芯"
+        ]
+    },
+    {
+        "brand": "轻奢时尚",
+        "bimg": [
+            {
+                "srcimg": "https://image8.wbiao.co/mall/7f57124ff8af4ef5bdb64a64ba4d0366.jpg",
+                "imgtex": "天梭"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/93cf8b36835f401ea1f055524ab15641.jpg",
+                "imgtex": "赫柏林"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/55a2175cec144a2f9f1ef90fb8a35b3e.jpg",
+                "imgtex": "美度"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/1d9b14b21916484f9d32cbf35f36ecbc.jpg",
+                "imgtex": "迪沃斯"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/651629fb6bb34956ae0c3decbc4dd9ff.jpg",
+                "imgtex": "阿玛尼"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/0359c75697494a378fa9216fb059a5b4.jpg",
+                "imgtex": "西铁城"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/2197f6836668436f805e3faf9cc2c5f5.jpg",
+                "imgtex": "汉米尔顿"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/424d59326eab4938bbd68b8a7d9e91f9.jpg",
+                "imgtex": "优立时"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/85aa0547a58f413d924c647b866b8737.jpg",
+                "imgtex": "精工"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/02c22419127e46dc8e89464c53a6c167.jpg",
+                "imgtex": "雷米格"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/8dac501fd58346829ca1d63dba9ed415.jpg",
+                "imgtex": "爱罗"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/90bde8c375bd47f48b57ca7286fdf40b.jpg",
+                "imgtex": "东方双狮"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/93898cd9f5b84ac598c7b70b231b36ee.jpg",
+                "imgtex": "CK"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/4b4049456fc64cafb828cab8010bdf63.jpg",
+                "imgtex": "梅花"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/3ee671aae591433381e1ddc256f83dc6.jpg",
+                "imgtex": "雪铁纳"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f302b00e92c542b09291b0cf48fec854.jpg",
+                "imgtex": "摩凡陀"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/79437d90cad747ca81f4ebd5cdb65e69.jpg",
+                "imgtex": "sevenFriday"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/7fc3f77478b14e32b79c30c39526e14e.jpg",
+                "imgtex": "豪度"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/e3d07a70b81f461bb225df2509f2af3e.jpg",
+                "imgtex": "时度"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/c7d0aa43a89642d2b8ced0f41cb3c30c.jpg",
+                "imgtex": "英纳格"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/296930d5ca5b493fa9abf943aeaaefe9.jpg",
+                "imgtex": "瑞士军表"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/cbb0e3dc70594f8ba360f84c79527437.jpg",
+                "imgtex": "依波路"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/c6de5bfb44574635961f530162bd50a3.jpg",
+                "imgtex": "PILO & CO GENEVE"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/2cd0b3f426784ddd97d7d362781f722a.jpg",
+                "imgtex": "DVH"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/34713f67970d4646aedd92c5278b45c0.jpg",
+                "imgtex": "特工"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/30881b0ac4a448ea8a1d1346ab48b076.jpg",
+                "imgtex": "查梅斯"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/2e9ed91775454dd7bce23f01b4c5e58b.jpg",
+                "imgtex": "摩纹"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/3e45167afdac4e65b36894487b3caad4.jpg",
+                "imgtex": "波尔"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/794ecba852d74580a07390d8f64baae1.jpg",
+                "imgtex": "哈伯曼"
+            }
+        ],
+        "hot": [
+            "力洛克",
+            "东方星",
+            "贝伦赛丽",
+            "法国赫柏林",
+            "怀表",
+            "潜水表",
+            "大三针",
+            "GMT"
+        ]
+    },
+    {
+        "brand": "年轻潮牌",
+        "bimg": [
+            {
+                "srcimg": "https://image8.wbiao.co/mall/b10d70fd3f1b42eba2ff2d58f4076633.jpg",
+                "imgtex": "卡西欧"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/1e932507f8ab49abb39404bee7e89596.jpg",
+                "imgtex": "迪士尼"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/c8783341b1234c65b19a4395e5923b8e.jpg",
+                "imgtex": "漫威（MARVEL）"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/38053f5369f149f8a7936b98327b9da3.jpg",
+                "imgtex": "雅克利曼"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/da4c1ede76604711ac0f61e48c610ae2.jpg",
+                "imgtex": "雅柏"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/1eb2ad704c1e4725a3b0f2eaa6911e69.jpg",
+                "imgtex": "玛莎拉蒂"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/610227c11ed64ead86d923b48fab88a6.jpg",
+                "imgtex": "斯沃琪"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/6382785d17b442a491161580cb1d93b6.jpg",
+                "imgtex": "恒圆"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f6504365b1cd4450a0b6a01a70bd3d43.jpg",
+                "imgtex": "天铭"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/867dca52bfc54fc0be50a3b4dbd0aa1d.jpg",
+                "imgtex": "天美时"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/e2f68979158640e883197d98396a11ac.jpg",
+                "imgtex": "dufa"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/ffd2971738704bb0b477817a738c02f6.jpg",
+                "imgtex": "威利默克"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/2e76525da904412dbbb70d1a685cf603.jpg",
+                "imgtex": "奥尼卡"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/3a4f83955f8448f0a1809da4f187151a.jpg",
+                "imgtex": "雍加毕索"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/10a27ea18b2642a1a55955cb1c69eac3.jpg",
+                "imgtex": "MINI"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/29d5eb6ed26c443ba09339e029d0027e.jpg",
+                "imgtex": "CIGA DESIGN"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/497f614d2ddc469882f7e07d2428f30d.jpg",
+                "imgtex": "罗蒂诗蔓"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/07ddcbaf5d25471bac2a454a9cda7530.jpg",
+                "imgtex": "积爵"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/abde96d33fc94e518d239886187f1319.jpg",
+                "imgtex": "法斯蒂纳"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/1a4d419d1c2746e288dcdb8dd08c7a30.jpg",
+                "imgtex": "ANICORN"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/b7a9aa4348b145da8e99bf9057edae06.jpg",
+                "imgtex": "三宅一生"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/1d105e52e2654132b1060a2455d0bbab.jpg",
+                "imgtex": "驰客"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/39dbe0fcb66141db9e811f6f4ba8d6d3.jpg",
+                "imgtex": "AVI-8"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/9de7fae6647148bea39875d76dfac6b0.jpg",
+                "imgtex": "天势"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/074f4b76f9fc49c9892e71447dc904aa.jpg",
+                "imgtex": "马克·雅可布"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/183795bfe1a94111a145402422644395.jpg",
+                "imgtex": "卡天龙"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/4dfc006f88ae415e9a70484a67e1257b.jpg",
+                "imgtex": "JEEP"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/8a927e4b4d5d485b8ed39abe096792a0.jpg",
+                "imgtex": "SWISS MILITARY HANOWA瑞士军表"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f8cc1e182d2b4ecbb9bd46dfc2cbb9d4.jpg",
+                "imgtex": "诺帝卡"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f7e9d7755ee24ee493f0cc757a29c91e.jpg",
+                "imgtex": "名爵"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/93d9040cb6e44d158db4aa2cdc69e465.jpg",
+                "imgtex": "萨克莱斯"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/ea6bfd467f0448ac8d1d7bfe171f98cb.jpg",
+                "imgtex": "TW Steel"
+            }
+        ],
+        "hot": [
+            "G-SHOCK",
+            "swatch",
+            "玛莎拉蒂",
+            "德国红点奖",
+            "漫威手表",
+            "蜘蛛侠"
+        ]
+    },
+    {
+        "brand": "国产智能",
+        "bimg": [
+            {
+                "srcimg": "https://image8.wbiao.co/mall/95242dc7c1a14f759253dc1aacda200b.jpg",
+                "imgtex": "飞亚达"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/059547e4c93e41c4a032beb01fc958dd.jpg",
+                "imgtex": "海鸥"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/05ffe9cac3f04e9c9183b906084b9003.jpg",
+                "imgtex": "上海"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/6df3f3a5a1554acfb1c3cd44848dbb30.jpg",
+                "imgtex": "佳明"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f79ca04d33104de8b2244c7239c62c40.jpg",
+                "imgtex": "唯路时"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/ca005569198d4cfbb14bd60e18246501.jpg",
+                "imgtex": "廊桥表"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/b80233af6d5f428d8f82a6545e905016.jpg",
+                "imgtex": "华为"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/c6d387c692b8484985ec1d17e9fb98e7.jpg",
+                "imgtex": "颂拓"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/8e5640eec3cc42fcba585922ddd44b52.jpg",
+                "imgtex": "孔雀"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/4074b02a8a284db3915a24f4b37b637c.jpg",
+                "imgtex": "尖刀"
+            }
+        ],
+        "hot": [
+            "海鸥陀飞轮",
+            "飞亚达",
+            "智能表",
+            "颂拓",
+            "佳明"
+        ]
+    },
+    {
+        "brand": "表带",
+        "bimg": [
+            {
+                "srcimg": "https://image8.wbiao.co/mall/ed770fa6782c4c9ea62d9ee9607de0f4.jpg",
+                "imgtex": "积优"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/addbf17f6b4d451797578358846be35d.jpg",
+                "imgtex": "奇美拉"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/f38dc911d4274c9793cc2ac84af917c2.jpg",
+                "imgtex": "欧时浩"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/0643c819d1ee4316b79e5735379c4b48.jpg",
+                "imgtex": "海奕施"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/c216719af6a649658616ab72dce3df25.png",
+                "imgtex": "赫柏林"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/08ce210dc28b47a7bb7b8d293e1db8c2.png",
+                "imgtex": "迪沃斯"
+            }
+        ],
+        "hot": [
+            "积优",
+            "欧时浩",
+            "奇美拉",
+            "海奕施"
+        ]
+    },
+    {
+        "brand": "维修保养",
+        "bimg": [
+            {
+                "srcimg": "https://image8.wbiao.co/mall/e5fe0ae7a54043158494322f4fb6a8f9.png",
+                "imgtex": "配件更换"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/67810c1b8771496a901fd5ec40033a5c.png",
+                "imgtex": "故障维修"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/5bbd75b5cba84ea8ad274d0ba362ae25.png",
+                "imgtex": "手表保养"
+            },
+            {
+                "srcimg": "https://image8.wbiao.co/mall/165117ff93814c5fbe64d5b6af93d088.jpg",
+                "imgtex": "电池服务"
+            }
+        ],
+        "hot": [
+            "延保服务",
+            "电池服务",
+            "联保服务",
+            "手表维修"
+        ]
+    }
+]

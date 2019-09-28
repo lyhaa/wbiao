@@ -1,0 +1,19 @@
+@mixin clearfix {
+    &:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        overflow: hidden;
+    }
+}
+#wb_list{
+    .main{
+        .W_list_wrap{
+            width: 1200px;
+            margin: 0 auto;
+        }
+    }
+}

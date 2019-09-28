@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="../lib/jquery-3.1.1.min.js"></script>
+    <script>
+        // let jon = require('../server/api/list.json');
+        let larr = [];
+        $.getJSON("../server/api/list.json",function(data){
+            data.forEach(function(item){
+                console.log(item.sales);
+                // let obj = {};
+                // item.sales = item.sales?item.sales:0
+                // obj.imgsrc = item.imgsrc;
+                // obj.price = item.price;
+                // obj.sprice = item.sprice;
+                // obj.title = item.title;
+                // obj.sales = item.sales;
+                // obj.brand = item.brand;
+                // obj.free = item.free;
+                // larr.push(obj);
+            })
+            let aa = larr?JSON.stringify(larr):"";
+            // console.log(data);
+        })
+    </script>
+</body>
+</html>
