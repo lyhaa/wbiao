@@ -2,9 +2,11 @@
     include "msql.php";
     $json = file_get_contents("../../json/HotSale.json");
     $arrData = json_decode($json);
+    // $_REQUEST
     // var_dump($arrData);
     // print_r($arrData);
     for($i = 0;$i< count($arrData);$i++){
+        // $_REQUEST
         // $msrc = $arrData[$i]["imgsrc"];
         // $price = floatval($arrData[$i]["price"]);
         // $sprice = $arrData[$i]["sprice"];

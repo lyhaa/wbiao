@@ -83,6 +83,7 @@
   line-height: 28px;
   padding: 0 10px;
   cursor: pointer;
+  font-size: 12px;
 }
 .header .h_top .h_topz .htop_r ul .Customer {
   border: 1px solid transparent;
@@ -130,6 +131,15 @@
   margin: 0 auto;
   height: 115px;
   min-width: 990px;
+}
+.header .content:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  overflow: hidden;
 }
 .header .content .logo {
   margin-top: 18px;
@@ -295,6 +305,7 @@
   position: relative;
   z-index: 10;
   background: rgba(255, 255, 255, 0.9);
+  font-size: 12px;
 }
 .header .h_botton .pt_nav_warp .nav_left .nav_left_menu .menu_line {
   display: none;
@@ -757,6 +768,7 @@
   line-height: 28px;
   color: #999;
   overflow: hidden;
+  font-size: 12px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -1274,6 +1286,21 @@
   margin-top: 10px;
   line-height: 18px;
   text-align: center;
+}
+.pt_panel_box ul #shoppingcart a #shppnum {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #b32424;
+  border-radius: 50%;
+  top: 5px;
+  right: 9px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 15px;
+  color: #fff;
+  display: none;
 }
 
 /*# sourceMappingURL=comm.css.map */

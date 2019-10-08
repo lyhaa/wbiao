@@ -1,12 +1,44 @@
 $(function () {
-    $.ajax({
+    document.getElementsByClassName("nav_left_menu")[0]?$.ajax({
         type: "get",
         url: "../server/api/hot_a.php",
         data: "",
         success: function (data) {
             hot_a(JSON.parse(data));
         }
+    }):"";
+    $(".noe").eq(1).click(() => {
+        sessionStorage.removeItem("username");
+        usern();
     })
+      function usern() {
+          const username = sessionStorage.getItem("username");
+          if (username) {
+              $(".noe").css("display", "block");
+              $(".noe").eq(0).html("你好！" + username);
+              $(".htop_r ul li").eq(0).css("display", "none");
+              $(".htop_r ul li").eq(3).css("display", "none");
+              $.ajax({
+                  type: "get",
+                  url: "../server/api/gooodsnum.php",
+                  data: {},
+                  dataType: "json",
+                  success: function (data) {
+                      if (data.totalRow > 0) {
+                          $("#shppnum") ? $("#shppnum").css("display", "block").text(data.totalRow) : "";
+                          $("#allQuantity") ? $("#allQuantity").text(data.totalRow) : "";
+                      } else {
+                          $("#shppnum").css("display", "none")
+                      }
+                  }
+              })
+          } else {
+              $(".noe").css("display", "none");
+              $(".htop_r ul li").eq(0).css("display", "block");
+              $(".htop_r ul li").eq(3).css("display", "block");
+          }
+      }
+      usern();
     function hot_a(darr) {
         darr.forEach(function (item, index) {
             // console.log(item);
@@ -169,6 +201,10 @@ $(function () {
             y: 0
         })
     })
+    jQuery.prototype = {
+        overlayScrollTO:instance[0].__overlayScrollbars__.scroll
+    }
+    // console.log(jQuery.prototype)
     $(".wb_friend_links").on("click", "span", function () {
         if (!this.isok2) {
             $(this).siblings(".wb_more_link").stop().slideDown();

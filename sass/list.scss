@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @mixin clearfix {
     &:after {
         content: ".";
@@ -9,11 +11,564 @@
         overflow: hidden;
     }
 }
-#wb_list{
-    .main{
-        .W_list_wrap{
-            width: 1200px;
+
+#wb_list {
+    .main {
+        .W_bread {
+            width: 100%;
+            height: 36px;
+            line-height: 36px;
+            background: url(../images/indeximg/W_detail_Bread.png) repeat-x;
+            overflow: hidden;
+            color: #666;
+            margin-bottom: 18px;
+
+            .bread_auto {
+                width: 1200px;
+                margin: 0 auto;
+            }
+
+            a {
+                text-decoration: none;
+                color: #666;
+                line-height: 1.5;
+                cursor: pointer;
+            }
+        }
+
+        .W_list_wrap {
+            width: 1180px;
             margin: 0 auto;
+            position: relative;
+            padding-bottom: 60px;
+
+            .list_left_area {
+                display: inline;
+                width: 210px;
+
+                .bx-wrapper {
+                    margin-bottom: 22px;
+
+                    .layui-carousel-ind li.layui-this {
+                        background-color: #cc9952;
+                    }
+
+                }
+
+                .friend_comment {
+                    margin-bottom: 22px;
+
+                    .tab_txt {
+                        display: flex;
+                        background-color: #f1f1f1;
+
+                        li {
+                            flex: 1;
+                            display: inline-block;
+                            cursor: pointer;
+                            color: #999;
+                            font-size: 14px;
+                            text-align: center;
+                            height: 40px;
+                            line-height: 40px;
+                        }
+                    }
+
+                    .moudle_con {
+                        .sliders {
+                            a {
+                                position: relative;
+                                display: block;
+                                overflow: hidden;
+                                margin: 28px 15px 0 15px;
+                                font-size: 12px;
+
+                                .s_img {
+                                    width: 64px;
+                                    height: 64px;
+                                    position: relative;
+                                    background-color: #fff;
+                                    overflow: hidden;
+                                    border: 1px solid #ddd;
+                                    box-sizing: border-box;
+
+                                    img {
+                                        width: auto;
+                                        height: 98%;
+                                        margin: 1%;
+                                    }
+                                }
+
+                                .right_txt {
+                                    width: 104px;
+                                    margin-left: 10px;
+
+                                    .p1 {
+                                        color: #333;
+                                        font-weight: 700;
+                                        line-height: 12px;
+                                        margin-top: 4px;
+                                        margin-bottom: 8px;
+                                    }
+
+                                    .p2 {
+                                        color: #999;
+                                        line-height: 18px;
+                                        overflow: hidden;
+                                        -webkit-line-clamp: 2;
+                                        -webkit-box-orient: vertical;
+                                        word-break: break-all;
+                                        display: -webkit-box;
+                                    }
+                                }
+                            }
+                        }
+
+                        .bx-controls {
+                            .bx-pager {
+                                margin-top: 30px;
+                                height: 2px;
+                                text-align: center;
+                                display: flex;
+                                justify-content: center;
+
+                                .bx-pager-item {
+                                    display: inline-block;
+
+                                    a {
+                                        width: 20px;
+                                        height: 2px;
+                                        background-color: #ccc;
+                                        border-radius: 0;
+                                        font-size: 0;
+                                        margin: 0 3px;
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .brows_history {
+                    margin-bottom: 22px;
+
+                    .history_tit {
+                        color: #666;
+                        font-size: 14px;
+                        font-weight: 700;
+                        height: 40px;
+                        line-height: 40px;
+                        background-color: #f1f1f1;
+                        padding-left: 12px;
+
+                    }
+
+                    .history_goods {
+                        padding: 28px 15px 0;
+                        color: #959595;
+                        line-height: 20px;
+                        border: 1px solid #eee;
+
+                        ul {
+                            li {
+                                a {
+                                    display: block;
+                                    margin-bottom: 28px;
+                                    overflow: hidden;
+
+                                    .p1 {
+                                        position: relative;
+                                        width: 160px;
+                                        margin: 0 auto;
+                                        text-align: center;
+                                        background-color: #fff;
+                                    }
+
+                                    .month_tag {
+                                        position: relative;
+                                        top: -2px;
+                                        display: inline-block;
+                                        padding: 0 2px;
+                                        background: linear-gradient(270deg, #ff8080 0, #e65c5c 100%);
+                                        border-radius: 2px;
+                                        color: #fff;
+                                    }
+
+                                    .fenqi_price {
+                                        margin-right: 10px;
+                                        color: #e65c5c;
+                                        font-size: 16px;
+                                        font-family: DIN-Bold;
+                                    }
+
+                                    .s_price {
+                                        position: relative;
+                                        color: #666;
+                                        font-size: 16px;
+                                        font-family: DIN-Bold;
+                                        font-weight: 400;
+                                    }
+
+                                    .p3 {
+                                        margin-top: 6px;
+                                        color: #999;
+                                        overflow: hidden;
+                                        -webkit-line-clamp: 2;
+                                        -webkit-box-orient: vertical;
+                                        word-break: break-all;
+                                        display: -webkit-box;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .watch_information {
+                    margin-bottom: 22px;
+
+                    .tab_txt {
+                        background-color: #f1f1f1;
+                        display: flex;
+
+                        li {
+                            flex: 1;
+                            display: inline-block;
+                            cursor: pointer;
+                            color: #999;
+                            font-size: 14px;
+                            text-align: center;
+                            height: 40px;
+                            line-height: 40px;
+                        }
+                    }
+
+                    .moudle_con {
+                        padding-top: 20px;
+                        color: #959595;
+                        line-height: 20px;
+                        border: 1px solid #eee;
+                        padding-bottom: 6px;
+
+                        .tab_con {
+                            ul {
+                                li {
+                                    a {
+                                        display: block;
+                                        width: 90%;
+                                        margin: 0 auto 14px;
+                                        line-height: 13px;
+                                        color: #666;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .moulde_side {
+                    margin-bottom: 22px;
+
+                    .tab_txt {
+                        background-color: #f1f1f1;
+                        display: flex;
+
+                        li {
+                            flex: 1;
+                            display: inline-block;
+                            cursor: pointer;
+                            color: #999;
+                            font-size: 14px;
+                            text-align: center;
+                            height: 40px;
+                            line-height: 40px;
+                        }
+
+                        .tab_in {
+                            color: #666;
+                            font-weight: 700;
+
+                        }
+                    }
+
+                    .moudle_con {
+                        padding-top: 20px;
+                        color: #959595;
+                        line-height: 20px;
+                        border: 1px solid #eee;
+
+                        .hot_brands {
+                            a {
+                                display: block;
+                                margin: 0 20px 20px 20px;
+                                color: #666;
+
+                                i {
+                                    display: inline-block;
+                                    width: 26px;
+                                    height: 26px;
+                                    line-height: 25px;
+                                    text-align: center;
+                                    border: 1px solid #ddd;
+                                    border-radius: 50%;
+                                    box-sizing: border-box;
+                                    margin-right: 16px;
+                                    color: #999;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                img {
+                    height: 100%;
+                }
+            }
+
+            .list_rigth_area {
+                width: 945px;
+
+                .recommend_store {
+                    position: relative;
+                    display: block;
+                    width: 968px;
+                    height: 124px;
+                    margin: 0 auto 30px;
+
+                    .store_img {
+
+                        width: 968px;
+                        height: 124px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        overflow: hidden;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .store_box {
+                        position: absolute;
+                        width: 316px;
+                        height: 84px;
+                        background: #fff;
+                        margin: 20px;
+
+                        .store_logo {
+                            position: relative;
+                            width: 120px;
+                            height: 100%;
+
+                            img {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                -webkit-transform: translate(-50%, -50%);
+                                -moz-transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                -o-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+
+                        .store_txt {
+                            width: 158px;
+                            margin-top: 15px;
+
+                            .p1 {
+                                font-size: 14px;
+                                color: #333;
+                            }
+
+                            .p2 {
+                                color: #999;
+                                height: 32px;
+                                line-height: 16px;
+                                overflow: hidden;
+                                -webkit-line-clamp: 2;
+                                -webkit-box-orient: vertical;
+                                word-break: break-all;
+                                display: -webkit-box;
+                            }
+                        }
+                    }
+                }
+
+                .goods_floor {
+                    .sort_list {
+                        .sort_con01 {
+                            ul {
+                                @include clearfix();
+
+                                li {
+                                    display: block;
+                                    width: 80px;
+                                    height: 36px;
+                                    text-align: center;
+                                    float: left;
+                                    @include clearfix();
+                                    &:hover a{
+                                         color: #cc9952;
+                                         font-weight: 700;
+                                         border-bottom: 3px solid #cc9952;
+                                    }
+
+                                    a {
+                                        position: relative;
+                                        line-height: 34px;
+                                        display: inline-block;
+                                    }
+
+                                    .on{
+                                            color: #cc9952;
+                                            font-weight: 700;
+                                            border-bottom: 3px solid #cc9952;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .s_goods_list{
+                        position: relative;
+                        #mock{
+                            display: none;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                right: 0;
+                                background-color: rgba(255, 255, 255, .9);
+                                z-index: 1;
+                                background-image: url("../images/indeximg/ef14ef569cdd57c0535f593e06db231f.gif");
+                                background-repeat: no-repeat;
+                                background-position: top;
+                                width: 100%;
+                                height: 145px;
+                                background-size: contain;
+                        }
+                        .gslist {
+                            margin-right: -38px;
+                            @include clearfix();
+                            li{
+                                position: relative;
+                                width: 236px;
+                                height: 450px;
+                                display: block;
+                                overflow: hidden;
+                                float: left;
+                                margin: 10px 8.6px 10px 0;
+                                &:hover{
+                                    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .2);
+                                }
+                                &:hover .goods_hover {
+                                    display: block;
+                                } 
+                                .s_goods_img {
+                                        display: block;
+                                        overflow: hidden;
+                                        width: 220px;
+                                        height: 275px;
+                                        margin: 10px auto 5px auto;
+                                        position: relative;
+                                        text-align: center;
+                                        img{
+                                                width: auto;
+                                                height: 275px;
+                                                position: absolute;
+                                                left: 50%;
+                                                margin-left: -137.5px;
+                                                background-color: #fff;
+                                        }
+                                }
+                                .goods_txt{
+                                        margin: 0 16px;
+                                        padding-bottom: 20px;
+                                        line-height: 18px;
+                                        .tPrc{
+                                                overflow: hidden;
+                                                margin-bottom: 10px;
+                                                .month_tag{
+                                                        position: relative;
+                                                        top: -2px;
+                                                        display: inline-block;
+                                                        padding: 0 2px;
+                                                        background: linear-gradient(270deg, #ff8080 0, #e65c5c 100%);
+                                                        border-radius: 2px;
+                                                        color: #fff;
+                                                }
+                                                .fenqi_price{
+                                                        margin-right: 10px;
+                                                        color: #e65c5c;
+                                                        font-size: 14px;
+                                                        font-family: DIN-Bold;
+                                                }
+                                                .s_price{
+                                                        position: relative;
+                                                        color: #666;
+                                                        font-size: 16px;
+                                                        font-family: DIN-Bold;
+                                                        font-weight: 400;
+
+                                                }
+                                        }
+                                        .s_goods_name{
+                                                height: 36px;
+                                                line-height: 18px;
+                                                margin-bottom: 8px;
+                                                color: #666;
+                                                overflow: hidden;
+                                                -webkit-line-clamp: 2;
+                                                -webkit-box-orient: vertical;
+                                                word-break: break-all;
+                                                display: -webkit-box;
+                                        }
+                                        .goods_sale{
+                                                margin-bottom: 4px;
+                                                color: #999;
+                                                em{
+                                                    font-style: normal;
+                                                }
+                                        }
+                                        .s_shop{
+                                                color: #999;
+                                                display: block;
+                                                margin-bottom: 7px;
+                                        }
+                                        .sale_tags{
+                                            span:first-child{
+                                                    background: 0 0;
+                                                    border: 1px solid #cc9952;
+                                                    color: #cc9952;
+                                            }
+                                        }
+                                }
+                                .goods_hover{
+                                        position: absolute;
+                                        bottom: 10px;
+                                        width: 204px;
+                                        display: none;
+                                        background: #fff;
+                                        a{
+                                                display: block;
+                                                float: left;
+                                                border: 1px solid #eee;
+                                                box-sizing: border-box;
+                                                width: 50%;
+                                                text-align: center;
+                                                line-height: 28px;
+                                                color: #333;
+                                        }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

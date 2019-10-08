@@ -1,4 +1,4 @@
-
+@charset "utf-8";
   @mixin clearfix {
     &:after {
       content: ".";
@@ -109,6 +109,7 @@
                 line-height: 28px;
                 padding: 0 10px;
                 cursor: pointer;
+                font-size: 12px;
               }
             }
 
@@ -170,7 +171,7 @@
       margin: 0 auto;
       height: 115px;
       min-width: 990px;
-
+      @include clearfix();
       .logo {
         margin-top: 18px;
         width: 415px;
@@ -321,6 +322,7 @@
             position: relative;
             z-index: 10;
             background: rgba(255, 255, 255, 0.9);
+            font-size: 12px;
 
             // height: 100%;
             .menu_line {
@@ -746,6 +748,7 @@
                       line-height: 28px;
                       color: #999;
                       overflow: hidden;
+                      font-size: 12px;
                       text-overflow: ellipsis;
                       white-space: nowrap;
                       &:hover{
@@ -1270,6 +1273,25 @@
                     }
               }
             }
+      }
+      #shoppingcart{
+        a{
+          #shppnum {
+               display: inline-block;
+               position: absolute;
+               width: 15px;
+               height: 15px;
+               background-color: #b32424;
+               border-radius: 50%;
+               top: 5px;
+               right: 9px;
+               font-size: 10px;
+               text-align: center;
+               line-height: 15px;
+               color: #fff;
+               display: none;
+          }
+        }
       }
     }
   }

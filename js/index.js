@@ -2,14 +2,6 @@ $(function () {
     $('.ma5slider').ma5slider();
     $.ajax({
         type: "get",
-        url: "../server/api/hot.php",
-        data: "",
-        success: function (data) {
-            // console.log(data);
-        }
-    })
-    $.ajax({
-        type: "get",
         url: "../server/api/timebuy.php",
         data: "",
         success: function (data) {
@@ -169,7 +161,4 @@ $(function () {
             </a>`
         })
     }
-    // if (location.hash == 'aa.html'){
-    //     this.location.href = "localhost:5213";
-    // }
 })
