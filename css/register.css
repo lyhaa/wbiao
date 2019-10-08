@@ -1,0 +1,99 @@
+body {
+  background: #fafafa !important;
+}
+
+#register {
+  width: 840px;
+  margin: 0 auto;
+  background: 0 0;
+}
+#register .header:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  overflow: hidden;
+}
+#register .header h1 {
+  background-image: url(../images/indeximg/ia_100000003.png);
+  background-repeat: no-repeat;
+  width: 121px;
+  height: 75px;
+  text-indent: -9999px;
+  float: left;
+  margin-top: 25px;
+}
+#register .header h1:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  overflow: hidden;
+}
+#register .header h2 {
+  background-image: url(../images/indeximg/ia_100000004.png);
+  background-repeat: no-repeat;
+  width: 175px;
+  height: 75px;
+  float: left;
+  margin-top: 25px;
+}
+#register .header h2:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  overflow: hidden;
+}
+#register .main {
+  border: 1px solid #f0f0f0;
+  background: #fff;
+  min-height: 260px;
+  margin: 40px auto 0;
+}
+#register .main .main_auto {
+  position: relative;
+  padding: 50px 0;
+}
+#register .main .main_auto .mock {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ccc;
+  z-index: 5;
+  opacity: .9;
+  background-image: url(../images/indeximg/bx_loader.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#register .main .main_auto .m_h5 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #000;
+  padding-bottom: 30px;
+  text-align: center;
+}
+#register .main .main_auto .m_form {
+  width: 400px;
+  margin: 0 auto;
+}
+#register .main .main_auto .m_form .layui-form-item .layui-btn-fluid {
+  width: 75%;
+  float: right;
+}
+#register .main .main_auto .m_form .layui-form-item .layui-input-block .lxx {
+  width: 170px;
+  float: left;
+  margin-right: 4px;
+}
+
+/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Gooey effect in pagination using SVG</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="header-pen">
+  <a href="http://www.dropinks.com/gooey-effect-in-pagination/">Gooey effect in pagination using SVG</a></div>
+
+
+
+<div class="fltr">
+  <span class="from-move" id="from-move"></span>
+  <ul class="page-list" id="page-list">
+    <li class="active"></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-flt">
+  <defs>
+    <filter id="gooey">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"></feColorMatrix>
+      <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+    </filter>
+  </defs>
+</svg>
+
+
+<div class="footer-pen"> For more animations: 
+  <a href="http://www.dropinks.com" target="_blank">www.dropinks.com</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Like us on:<a href="https://www.facebook.com/dropinksblog" target="_blank">Facebook</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Follow us on:<a href="https://twitter.com/dropinksblog" target="_blank">Twitter</a></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
